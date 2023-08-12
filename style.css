@@ -1,0 +1,453 @@
+* {
+    font-family: Roboto; 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+
+
+
+
+/* ---------------full content of page------------------------ */
+
+/* .container {
+   
+} */
+
+
+
+
+
+/* -----------------------nav bar-------------------------- */
+
+.nav {
+    height: 70px;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+}
+
+.nav-title {
+    margin-left: 20px;
+    
+    
+}
+
+.nav-links {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.active {
+    align-items: flex-end;
+    margin: 0 15px;
+}
+
+
+#btn {
+    height: 30px;
+    width: 100px;
+    color: whitesmoke;
+    background-color: teal;
+    border: none;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration:double;
+    
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* -----------------------Both Columns------------------------------ */
+
+.full-wrap {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* --------------------------Column 1 and 2------------------------------- */
+.column-1 {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.column-2 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* -----------------User Card Block------------------------ */
+
+.user-card {
+    width: 600px;
+    background-color: white;
+    border: 4px solid gray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: teal;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 35px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar {
+    border-radius: 100%;
+    background-color: whitesmoke;
+    height: 175px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 40px;
+    /* position: absolute; */
+    width: 150px;
+}
+
+.icon {
+    height: 20px;
+}
+
+a {
+    color: blue;
+} 
+
+
+
+
+
+
+
+
+/* ---------------------Education Card Block---------------------------- */
+
+.education-card {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border: 4px solid gray;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card-header2 {
+    background-color: black;
+    color: white;
+    height: 35px;
+    margin-bottom: 70px;
+    text-align: left;
+    padding: 20px;
+}
+
+.card-header2 h1 {
+    color: white;
+    padding-left: 25px;
+}
+
+.card-body2 {
+    padding: 25px;
+    width: 100%;
+}
+
+.card-body2 h1 {
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+
+.card-body2 h5 {
+    color: gray;
+    margin-top: 20px;
+}
+
+.card-body2 p {
+    margin-top: 20px;
+    margin-left: 0px;
+    color: black;
+    padding: 0px;
+ }
+
+
+
+
+
+
+/* --------------------------Requests Card--------------------------------- */
+
+
+.requests-card {
+    height: 300px;
+    background-color: white;
+    border: 4px solid gray;
+    border-radius: 5px;
+}
+
+
+
+.card-header3 {
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin-bottom: 40px;
+    
+    padding: 20px;
+    
+    
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#reqs {
+    color: black;
+    font-size: 27px;
+    background-color:gray;
+    border-radius: 50%;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+}
+
+
+.card-body3 {
+    margin-top: 20px;
+    color: black;
+    vertical-align: middle;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.todd {
+    margin-right: 0px;
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+}
+
+#toddpic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.accept-close1 {
+    text-align: right;
+    padding: 0px;
+    justify-content: space-between;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.phil {
+    margin-right: 0px;
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+}
+
+#philpic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.accept-close2 {
+    text-align: right;
+    padding: 0px;
+    justify-content: space-between;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+/* ----------------------------Connections Card----------------------------- */
+
+.connections-card {
+    width: 445px;
+    height: 505px;
+    margin-top: 20px;
+    background-color: white;
+    border: 4px solid gray;
+    border-radius: 5px;
+}
+
+.card-header4 {
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#connections {
+    color: black;
+    font-size: 27px;
+    background-color:gray;
+    border-radius: 50%;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+}
+
+.card-body4 {
+    margin-top: 20px;
+    color: black;
+    vertical-align: middle;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.adrien {
+    margin-right: 0px;
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+}
+
+#adrienpic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.anne {
+    margin-right: 0px;
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+}
+
+#annepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.alayne {
+    margin-right: 0px;
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+}
+
+#alaynepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.arry {
+    margin-right: 0px;
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+}
+
+#arrypic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#more {
+    height: 50px;
+    width: 405px;
+    color: blue;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 30px;
+    border: 4px solid gray;
+    border-radius: 5px;
+    margin-top: -5px;
+    padding: 20px;
+    margin-left: -24px;
+}
+
+
+
+
+
